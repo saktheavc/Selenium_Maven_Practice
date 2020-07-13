@@ -2,10 +2,13 @@ package practice.Selenium_Maven_Practice;
 
 import org.testng.annotations.Test;
 
+import junit.framework.Assert;
+
 public class One {
 	
 	@Test(priority=1)
 	public void A() {
+		
 		
 		System.out.println("A method");
 		
